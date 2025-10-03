@@ -113,23 +113,23 @@ func main() {
 
 	// Aqui está o SWITCH CASE principal!
 	switch opcao {
-	case "1":
+	case 1:
 		fmt.Println("\n=== FOR BÁSICO (CONTADOR) ===")
 		exemploForBasico()
 
-	case "2":
+	case 2:
 		fmt.Println("\n=== FOR COMO WHILE ===")
 		exemploForWhile()
 
-	case "3":
+	case 3:
 		fmt.Println("\n=== FOR RANGE (ARRAYS) ===")
 		exemploForRangeArray()
 
-	case "4":
+	case 4:
 		fmt.Println("\n=== FOR RANGE (MAPS) ===")
 		exemploForRangeMap()
 
-	case "5":
+	case 5:
 		fmt.Println("\n=== FOR RANGE (STRUCTS) ===")
 		exemploForRangeStruct()
 
